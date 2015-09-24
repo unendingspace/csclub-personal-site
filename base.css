@@ -1,6 +1,7 @@
 body {
 	background-image: url("http://jinqiaojs.com/hd/snow-forest-night-hd-wallpaper-widescreen-uus.jpg");
 	background-size: cover;
+	background-attachment: fixed;
 	overflow: hidden;
 }
 
@@ -19,6 +20,7 @@ body {
 
 .header a {
 	text-decoration: none;
+	outline: 0;
 }
 
 .header div {
@@ -87,7 +89,7 @@ body {
 }
 
 .toggle .menu .item:hover {
-	color: black;
+	color: #AD96FF;
 }
 
 .toggle img {
@@ -125,7 +127,7 @@ body {
 	margin-left: -8px;
 	margin-top: -2px;
 	display: none;
-	z-index: -1;
+	z-index: 1;
 }
 
 .content div{
@@ -144,4 +146,25 @@ body {
 
 .content div p {
 	font-size: 20px;
+	font-family: sans;
+}
+
+.content div table {
+	color: white;
+	font-size: 20px;
+	font-family: sans;
+	width: 65%;
+	padding-left: 5%;
+	padding-top: 0px;
+}
+
+.content div a {
+	text-decoration: none;
+	border: 0;
+	color: white;
+	padding-left: 0px;
+}
+
+.content div a:hover {
+	color: #AD96FF;
 }
