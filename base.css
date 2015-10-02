@@ -3,7 +3,7 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	overflow: hidden;
-	font-family: sans-serif;
+	font-family: "Roboto";
 }
 
 /* Begin header formatting */
@@ -121,7 +121,8 @@ body {
 
 .content {
 	background-color: black;
-	opacity: 0.60;
+	opacity: 0;
+	transition: opacity 1s;
 	position: absolute;
 	top: 50;
 	width: 100%;
@@ -148,7 +149,6 @@ body {
 
 .content div p {
 	font-size: 20px;
-	font-family: sans;
 }
 
 .content div table {
