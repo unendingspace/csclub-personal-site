@@ -8,10 +8,10 @@ var active = null;
 function toggleContentTab() {
 	if (content_window.style.display != "inline") {
 		content_window.style.display = "inline";
-		content_window.style.opacity = "0.6";
+		//content_window.style.opacity = "0.6";
 	}
 	else {
-		content_window.style.opacity = "0";
+		//content_window.style.opacity = "0";
 		content_window.style.display = "none";
 	}
 }
