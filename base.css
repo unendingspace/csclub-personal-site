@@ -176,9 +176,12 @@ body {
 	width: 100%;
 }
 
+.content tr {
+	padding-left: 5%;
+}
+
 .content .picturelist .text {
 	width: 55%;
-	padding-left: 5%;
 	padding-right: 5%;
 	padding-bottom: 40px;
 }
@@ -191,3 +194,13 @@ body {
 .intextlink {
 	color: #D5C9FF !important;
 }
+
+#contact table {
+	padding-left: 20%;
+}
+
+#contact td {
+	padding-top: 30px;
+	padding-right: 30px;
+}
+
