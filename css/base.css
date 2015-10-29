@@ -1,5 +1,5 @@
 body {
-	background-image: url("background.jpg");
+	background-image: url("../images/background.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: "Roboto";
@@ -62,7 +62,7 @@ body {
 	top: 0;
 	right: 0;
 	border: 0;
-	background-image: url("triangle.png");
+	background-image: url("../images/triangle.png");
 	background-repeat: no-repeat;
 }
 
@@ -78,7 +78,7 @@ body {
 }
 
 .toggle:hover {
-	background-image: url("triangle-hover.png");
+	background-image: url("../images/triangle-hover.png");
 }
 
 .toggle .menu .item {
@@ -120,7 +120,7 @@ body {
 /* End header formatting */
 
 .content {
-	background-image: url("content_background.png");
+	background-image: url("../images/content_background.png");
 	position: absolute;
 	top: 50;
 	width: 100%;
