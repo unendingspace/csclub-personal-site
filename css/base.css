@@ -9,13 +9,13 @@ body {
 
 .header {
 	background-color: #000000;
-	height: 8%;
+	height: 50px;
 	position: fixed;
 	width: 105%;
 	margin-top: -10px;
 	margin-left: -10px;
 	margin-right: -10px;
-	opacity: 0.9;
+	opacity: 0.85;
 	z-index: 20;
 }
 
