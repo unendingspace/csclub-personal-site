@@ -122,9 +122,10 @@ body {
 .content {
 	background-image: url("../images/content_background.png");
 	position: absolute;
-	top: 50;
 	width: 100%;
-	min-height: 93%;
+	top: 0px;
+	bottom: 0px;
+	min-height: 100%;
 	margin-left: -8px;
 	margin-top: -2px;
 	margin-bottom: 0px;
@@ -187,8 +188,11 @@ body {
 }
 
 .content .picturelist .image {
+	margin-left: auto;
+	margin-right: auto;
 	width: 35%;
 	padding-bottom: 40px;
+	text-align: center;
 }
 
 .intextlink {
