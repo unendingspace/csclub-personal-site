@@ -4,16 +4,13 @@ var small_buttons = document.getElementsByClassName("item");
 			  
 var content_window = document.getElementsByClassName("content")[0];
 var active = null;
-var header = document.getElementsByClassName("header")[0];
 
 function toggleContentTab() {
 	if (content_window.style.display != "inline") {
 		content_window.style.display = "inline";
-		header.style.opacity = 0.9;
 	}
 	else {
 		content_window.style.display = "none";
-		header.style.opacity = 0.85;
 	}
 }
 
