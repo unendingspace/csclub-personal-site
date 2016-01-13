@@ -134,6 +134,12 @@ body {
 	overflow: auto;
 }
 
+.content .portrait {
+	width: 300px;
+	height: auto;
+	margin-left: calc(50% - 150px);
+}
+
 .content div{
 	display: none;
 	height: auto;
