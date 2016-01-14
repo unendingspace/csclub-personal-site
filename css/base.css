@@ -137,7 +137,9 @@ body {
 .content .portrait {
 	width: 200;
 	height: auto;
-	margin-left: calc(50% - 150px);
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 .content div{
