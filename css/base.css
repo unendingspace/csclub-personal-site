@@ -135,7 +135,7 @@ body {
 }
 
 .content .portrait {
-	width: 300px;
+	width: 200;
 	height: auto;
 	margin-left: calc(50% - 150px);
 }
